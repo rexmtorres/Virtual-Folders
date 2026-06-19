@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>org.jetbrains.plugins.template</id>
+    <id>io.github.rexmtorres.virtualfolders</id>
     <name>IntelliJ Platform Plugin Template</name>
     <vendor>JetBrains</vendor>
     <description><![CDATA[
@@ -13,7 +13,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="org.jetbrains.plugins.template.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="org.jetbrains.plugins.template.startup.MyProjectActivity" />
+        <toolWindow factoryClass="io.github.rexmtorres.virtualfolders.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <postStartupActivity implementation="io.github.rexmtorres.virtualfolders.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>

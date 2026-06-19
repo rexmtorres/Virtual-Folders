@@ -188,7 +188,7 @@ Maintain the plugin description directly in this file, using HTML wrapped in CDA
 
 ```xml
 <idea-plugin>
-  <id>org.jetbrains.plugins.template</id>
+  <id>io.github.rexmtorres.virtualfolders</id>
   <name>IntelliJ Platform Plugin Template</name>
   <vendor>JetBrains</vendor>
   <description><![CDATA[

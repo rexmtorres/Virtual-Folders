@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template.toolWindow
+package io.github.rexmtorres.virtualfolders.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import org.jetbrains.plugins.template.MyBundle
-import org.jetbrains.plugins.template.services.MyProjectService
+import io.github.rexmtorres.virtualfolders.MyBundle
+import io.github.rexmtorres.virtualfolders.services.MyProjectService
 import javax.swing.JButton
 
 
